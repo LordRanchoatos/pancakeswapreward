@@ -1,0 +1,163 @@
+.Footer {
+    background: rgb(39, 38, 44);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 56px 40px 32px;
+    margin-bottom: 0px;
+}
+
+.FooterMain {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterDesktopHide {
+    display: none;
+}
+
+.FooterDesktopOrderOne {
+    order: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    margin-bottom: 36px;
+}
+
+.FooterListing {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.FooterListingItem {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.FooterListingItem:first-child {
+    color: rgb(154, 106, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.FooterListingItemLink {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+    color: rgb(244, 238, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ShortHyphen {
+    color: rgb(244, 238, 255);
+}
+
+.ColorGold {
+    color: rgb(255, 178, 55);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.FooterDesktopOrderTwo {
+    order: 2;
+    display: flex;
+    border-bottom: 1px solid rgb(56, 60, 65);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.FooterSocialLink {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+    color: rgb(31, 199, 212);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 24px
+}
+
+.FooterSocialLink svg {
+    align-self: center;
+    fill: rgb(184, 173, 210);
+    flex-shrink: 0;
+}
+
+.TelegramStyling {
+    align-self: center;
+    fill: rgb(184, 173, 210);
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.FooterDesktopOrderThree {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-color: rgb(56, 50, 65);
+    border-style: solid;
+    order: 3;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-pack: justify;
+}
+
+.FooterClickArea {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.FooterClickAreaSvg {
+    transition: transform 0.3s ease 0s;
+    align-self: center;
+    fill: rgb(40, 13, 95);
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.FooterBuyCakeButton {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+}
+
+.WhiteArrowIcon {
+    align-self: center;
+    fill: rgb(255, 255, 255);
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}

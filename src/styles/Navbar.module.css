@@ -1,0 +1,166 @@
+.NavContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: top 0.2s ease 0s;
+    height: 56px;
+    width: 100%;
+    z-index: 20;
+}
+
+.Nav {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 98%;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(231, 227, 235);
+    transform: translate3d(0px, 0px, 0px);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.NavSectionOne {
+    display: flex;
+}
+
+.NavLogo {
+    display: flex;
+}
+
+.NavLogoCentering {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 968px) {
+    .NavLogoMainDesktop {
+        display: block;
+    }
+}
+
+.NavLogoMainDesktop {
+    width: 160px;
+    align-self: center;
+    fill: rgb(40, 13, 95);
+    flex-shrink: 0;
+}
+
+.NavSectionTwo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.NavRandom {
+    margin-left: 24px;
+    display: flex;
+}
+
+.NavRandomItem {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.NavRandomItemInner {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(122, 110, 170);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 16px;
+    height: 48px;
+}
+
+.CakeSignal {
+    margin-right: 12px;
+}
+
+.CakeSignalFlex {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.CakeLogAnim {
+    transition: transform 0.3s ease 0s;
+}
+
+.CakeSignalText {
+    color: rgb(122, 110, 170);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.GlobeArea {
+    margin-top: 4px;
+    position: relative;
+}
+
+.NavSvgButton {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16 px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 20px;
+    font-size: 12px;
+    padding: 0px 8px;
+    background-color: transparent;
+    color: rgb(31, 199, 212);
+    box-shadow: none;
+}
+
+.NavSvgButtonSvg {
+    align-self: center;
+    fill: rgb(122, 110, 170);
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+}
+
+.SettingsFlex {
+    display: flex;
+}
+
+.NavConnectButton {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+}
