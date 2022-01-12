@@ -1,0 +1,87 @@
+.hero {
+    background: linear-gradient(259.47deg, #E8FBFF 3.11%, #EEF4FF 95.08%);
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+
+.HeroContainer {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.bigHeroText {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 107%;
+    color: #7645D9;
+}
+
+.HeroText {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #280D5F;
+    margin: 1.5rem 0;
+}
+
+.HeroFlexButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.HeroButtonPrimary {
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 50px;
+    background: #1FC7D4;
+    box-shadow: 0px 1.5px 0px #197D91;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.HeroButtonOutline {
+    outline: none;
+    border: none;
+    color: #1FC7D4;
+    border: 3px solid #1FC7D4;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+}
+
+.heroImgContainer {
+    position: relative;
+}
+
+.bunnyStarTop {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.bunnyStarBottom {
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+}
+
+.bunnyStarBack {
+    position: absolute;
+    bottom: 35%;
+    left: 70%;
+    z-index: -10;
+}

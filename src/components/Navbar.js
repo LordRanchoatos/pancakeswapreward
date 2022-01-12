@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Logo } from "../assets/logo-big.svg";
+import { ReactComponent as Logo } from "../assets/pancake-logo.svg";
 import { ReactComponent as ThreeDotsIcon } from "../assets/three-dots-icon.svg";
 import { ReactComponent as CakeLogo } from "../assets/cake-logo.svg";
 import { ReactComponent as GlobeIcon } from "../assets/globe-icon.svg";
