@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../styles/Section1.module.css'
 import SwapTokenUI from '../assets/swap-tokens-ui.png'
-import LiquidityOptionsUI from '../assets/liquidity-options.png'
+import LiquidityOptionsUI from '../assets/liquidity-options.png';
+
 const Section1 =() => {
   return (
     <div className={styles.Section1}>
@@ -9,7 +10,7 @@ const Section1 =() => {
         <div>
           <img alt="swap tokens" src={SwapTokenUI} />
         </div>  
-        <div>
+        <div className={styles.Section1Section2}>
           <h2 className={styles.Section1MainText}>
             <span>Swap</span> your tokens and provide <span>liquidity</span> in an instant
           </h2>

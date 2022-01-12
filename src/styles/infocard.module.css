@@ -1,0 +1,31 @@
+.InfoCard {
+    width: 200px;
+    height: 175px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px #DAD7DC;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+}
+
+.InfoCardIcon {
+    align-self: flex-end;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 40px;
+}
+
+.InfoCard h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 109%;
+}
+
+.InfoCardStatement {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 127%;
+    color: rgba(40, 13, 95, 0.64);
+}
