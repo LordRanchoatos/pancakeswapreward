@@ -1,0 +1,72 @@
+.Section3 {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 127%;
+  padding-bottom: 20%;
+}
+
+.Section3Content {
+  padding-top: 15%;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  align-items: center;
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Section3Content h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 107%;
+}
+
+.Section3Content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 127%;
+  color: rgba(40, 13, 95, 0.64);
+  margin: 25px 0;
+}
+
+.HeroButtonPrimary {
+  outline: none;
+  border: none;
+  width: 180px;
+  height: 50px;
+  background: #1fc7d4;
+  box-shadow: 0px 1.5px 0px #197d91;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.TextHighlighted {
+  color: #7645d9;
+  font-weight: 700;
+}
+
+.PancakeCoin {
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    z-index: 10;
+}
+
+.BtcCoin {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    z-index: 5;
+}
+
+.BnbCoin {
+    position: absolute;
+    top: 60%;
+    left: 85%;
+}
